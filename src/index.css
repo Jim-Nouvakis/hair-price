@@ -13,10 +13,11 @@
     --color-chetwode-blue-900: #2f2d82;
     --color-chetwode-blue-950: #1d1a4c;
 
+    --color-primary: var(--color-chetwode-blue-600);
 }
 
-@layer base{
-    body{
-        @apply bg-chetwode-blue-950
+@layer base {
+    body {
+        @apply bg-chetwode-blue-100;
     }
 }
