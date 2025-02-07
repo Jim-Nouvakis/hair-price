@@ -14,10 +14,32 @@
     --color-chetwode-blue-950: #1d1a4c;
 
     --color-primary: var(--color-chetwode-blue-600);
+
+
 }
 
 @layer base {
+
     body {
-        @apply bg-chetwode-blue-100;
+        @apply bg-chetwode-blue-100 font-medium w-full;
     }
+
+}
+
+@layer components {
+
+    .button-primary {
+        @apply py-4 px-8 rounded-lg text-white w-full cursor-pointer bg-chetwode-blue-600 max-w-88
+
+    }
+
+    .button-secondary {
+        @apply py-4 px-8 rounded-lg text-gray-600 w-full cursor-pointer max-w-88
+
+    }
+
+}
+
+* {
+    width: 100%;
 }
